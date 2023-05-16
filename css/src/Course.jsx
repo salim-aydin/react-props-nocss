@@ -6,9 +6,9 @@ function Course({ image, title, description }) {
   //   const description = props.description;
   //   const { title, description } = props;
   return (
-    <div>
+    <div className='container'>
       <img src={image} alt="" />
-      <div>{title}</div>
+      <div className='centerTitle'>{title}</div>
       <div>{description}</div>
     </div>
   );
